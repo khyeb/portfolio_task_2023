@@ -8,6 +8,6 @@
     100% {background-position-x:200%;}
 }
 @keyframes txt_bg {
-    0% {background-position-x:0;}
-    100% {background-position-x:8000px;}
+    0% {background-position-x:0px;}
+    100% {background-position-x:-8000px;}
 }
