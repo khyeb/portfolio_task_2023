@@ -1,0 +1,76 @@
+
+/* font-family: 'Shrikhand', cursive; */
+body {
+    background:url(../images/7598163.jpg) no-repeat fixed center;
+    background-size:cover;
+}
+.profile {
+    height:800px;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:center;
+    align-items:center;
+}
+.profile .profile_img {
+    width:200px; height:200px;
+    border:6px solid #fff;
+    border-radius:50%;
+    background-color: blue;
+    
+
+}
+.profile .profile_img img {width:100%}
+.profile h1 {
+    font-size:2rem;
+    font-family: 'Shrikhand', cursive;
+    background:linear-gradient(90deg, rgba(0,212,255,1), rgba(255,84,149,1), rgba(159,47,235,1), rgba(0,212,255,1));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-size:500%;
+    animation:profile_bg 10s linear alternate infinite;
+
+}
+.profile .loading {}
+.profile .loading .bar {}
+.profile .follow_me {}
+.profile .link_btn {}
+.profile .link_btn a {
+    display:inline-block;
+    width:20px; height:20px;
+}
+.profile .link_btn .git {}
+.profile .link_btn .git img {width:100%}
+.profile .link_btn .git .btn_name {}
+.profile .link_btn .notion {}
+.profile .link_btn .notion img {width:100%}
+.profile .link_btn .notion .btn_name {}
+.profile .link_btn .portfolio {}
+.profile .link_btn .portfolio img {width:100%}
+.profile .link_btn .portfolio .btn_name {}
+.profile .menu {}
+.profile .menu .bar1 {}
+.profile .menu .bar2 {}
+.profile .menu .bar3 {}
+.ani_2023 {}
+.ani_2023 .txt_bg1 {}
+.ani_2023 .txt_bg2 {}
+
+.project {
+    width:1260px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;}
+.project a {
+    width:300px;
+}
+.project a .project_img {}
+.project a .project_img img {width:100%}
+.project a .info {
+    background-color:#fff;
+}
+.project a .info h1 {}
+.project a .info p {}
+.phone_thank {text-align: center;}
+.phone_thank h2 {}
+.phone_thank p {}
