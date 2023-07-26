@@ -83,10 +83,15 @@ body {
 }
 .profile .link_btn .portfolio img {width:100%}
 .profile .link_btn .portfolio .btn_name {}
-.profile .menu {}
-.profile .menu .bar1 {}
-.profile .menu .bar2 {}
-.profile .menu .bar3 {}
+.profile .nav {
+    width:40px; height:40px;
+}
+.profile .nav span {
+
+}
+.profile .nav .bar1 {}
+.profile .nav .bar2 {}
+.profile .nav .bar3 {}
 .ani_2023 {}
 .ani_2023 .txt_bg1 {
     height:190px; width:200%;
