@@ -140,7 +140,7 @@ body {
     animation:txt_bg 70s linear infinite;
 }
 .project {
-    max-width:1260px;
+    width:1260px;
     margin:0 auto;
     padding:100px 0;
     display:flex;
