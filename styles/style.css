@@ -1,7 +1,7 @@
 
 /* font-family: 'Shrikhand', cursive; */
 body {
-    background:url(../images/7598163.jpg) no-repeat fixed center;
+    background:url(../images/7598163.jpg) no-repeat fixed center center;
     background-size:cover;
 }
 .profile {
@@ -14,15 +14,20 @@ body {
 .profile .profile_img {
     width:200px; height:200px;
     border:6px solid #fff;
+    margin: 0 0 20px 0;
     border-radius:50%;
     background-color: blue;
+    overflow:hidden;
+    animation:profile_img 1s linear alternate infinite;
     
 
 }
 .profile .profile_img img {width:100%}
 .profile h1 {
+    margin: 0 0 20px 0;
     font-size:2rem;
     font-family: 'Shrikhand', cursive;
+    letter-spacing:-0.04em;
     background:linear-gradient(90deg, rgba(0,212,255,1), rgba(255,84,149,1), rgba(159,47,235,1), rgba(0,212,255,1));
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
@@ -31,20 +36,51 @@ body {
 
 }
 .profile .loading {}
-.profile .loading .bar {}
-.profile .follow_me {}
-.profile .link_btn {}
+.profile .loading .bar {
+    display:block;
+    height:10px; width:350px;
+    border-radius:5px;
+    background:#fff;
+}
+.profile .profile_img:hover~.loading .bar {
+    background:magenta;
+}
+.profile .follow_me {
+    margin: 0 0 20px 0;
+    font-weight:500;
+}
+.profile .link_btn {
+    display:flex;
+    flex-flow:row nowrap;
+}
 .profile .link_btn a {
-    display:inline-block;
-    width:20px; height:20px;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items:center;
+    margin:0 20px 0 0;
+    width:25px; height:25px;
+}
+.profile .link_btn a span {
+    font-family: 'Shrikhand', cursive;
+    color:#fff;
+    padding:5px;
+    margin:10px 0 0 0;
+    opacity:0;
+    background:#565656;
+}
+.profile .link_btn a:hover span {
+    opacity:1;
 }
 .profile .link_btn .git {}
 .profile .link_btn .git img {width:100%}
-.profile .link_btn .git .btn_name {}
+.profile .link_btn .git .btn_name {
+}
 .profile .link_btn .notion {}
 .profile .link_btn .notion img {width:100%}
 .profile .link_btn .notion .btn_name {}
-.profile .link_btn .portfolio {}
+.profile .link_btn .portfolio {
+    margin-right:0;
+}
 .profile .link_btn .portfolio img {width:100%}
 .profile .link_btn .portfolio .btn_name {}
 .profile .menu {}
@@ -52,21 +88,34 @@ body {
 .profile .menu .bar2 {}
 .profile .menu .bar3 {}
 .ani_2023 {}
-.ani_2023 .txt_bg1 {}
-.ani_2023 .txt_bg2 {}
+.ani_2023 .txt_bg1 {
+    height:190px; width:200%;
+    background:url(../images/bg2.png) repeat-x center;
+    transform:rotate(-10deg);
+    animation:txt_bg 30s linear infinite;
+}
+.ani_2023 .txt_bg2 {
+    height:190px; width:200%;
+    background:rgba(0,0,0,0.8) url(../images/bg3.png) repeat-x center;
+    transform:rotate(10deg);
+    animation:txt_bg 30s linear infinite;
+}
 
 .project {
     width:1260px;
     margin:0 auto;
     display:flex;
     flex-flow:row nowrap;
-    justify-content:space-between;}
+    justify-content:space-between;
+    align-items:flex-start;
+}
 .project a {
-    width:300px;
+    width:300px; height:400px;
 }
 .project a .project_img {}
 .project a .project_img img {width:100%}
 .project a .info {
+    text-align:center;
     background-color:#fff;
 }
 .project a .info h1 {}
