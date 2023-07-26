@@ -60,18 +60,18 @@ body {
     font-weight:700;
     margin: 0 0 20px 0;
 }
-.profile_nav .profile .link_btn {
+.profile_nav .profile .link_icon {
     display:flex;
     flex-flow:row nowrap;
 }
-.profile_nav .profile .link_btn a {
+.profile_nav .profile .link_icon a {
     display:flex;
     flex-flow: column nowrap;
     align-items:center;
     margin:0 20px 0 0;
     width:25px; height:25px;
 }
-.profile_nav .profile .link_btn a span {
+.profile_nav .profile .link_icon a span {
     font-family: 'Shrikhand', cursive;
     color:#fff;
     padding:5px;
@@ -79,21 +79,21 @@ body {
     opacity:0;
     background:#222;
 }
-.profile_nav .profile .link_btn a:hover span {
+.profile_nav .profile .link_icon a:hover span {
     opacity:1;
 }
-.profile_nav .profile .link_btn .git {}
-.profile_nav .profile .link_btn .git img {width:100%}
-.profile_nav .profile .link_btn .git .btn_name {
+.profile_nav .profile .link_icon .git {}
+.profile_nav .profile .link_icon .git img {width:100%}
+.profile_nav .profile .link_icon .git .btn_name {
 }
-.profile_nav .profile .link_btn .notion {}
-.profile_nav .profile .link_btn .notion img {width:100%}
-.profile_nav .profile .link_btn .notion .btn_name {}
-.profile_nav .profile .link_btn .portfolio {
+.profile_nav .profile .link_icon .notion {}
+.profile_nav .profile .link_icon .notion img {width:100%}
+.profile_nav .profile .link_icon .notion .btn_name {}
+.profile_nav .profile .link_icon .portfolio {
     margin-right:0;
 }
-.profile_nav .profile .link_btn .portfolio img {width:100%}
-.profile_nav .profile .link_btn .portfolio .btn_name {}
+.profile_nav .profile .link_icon .portfolio img {width:100%}
+.profile_nav .profile .link_icon .portfolio .btn_name {}
 .profile_nav .nav {
     display:flex;
     flex-flow:column nowrap;
